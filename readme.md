@@ -5,6 +5,8 @@
 -Update route 
 -Delete route
 
+///////////////////////////////////////////
+
 
 //Dependencies//
 
@@ -15,11 +17,14 @@
 -morgan
 -dotenv
 
+//////////////////////////////////////////////
 
 //Models
 
 -Title: String
 Url: String
+
+/////////////////////////////////////////////////
 
 //Users//
 
@@ -28,8 +33,10 @@ Url: String
 -User can delete bookmark with X button next to name of bookmark
 -User can also edit bookmark if a mistake was made or anything needed changing
 
+////////////////////////////////////////////////////
 
 //Challenges//
 
 There was actually no challenges for the backend , it was fairly easy only ran into one problem where I forgot to defind the DATABASE_URL.
 
+///////////////////////////////////////////////////////
