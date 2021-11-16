@@ -8,7 +8,7 @@ const mongoose = require('mongoose') // This can be changed to './database/conne
 const cors = require('cors')
 const { application } = require('express')
 const app = express()
-const {PORT = 3000} = process.env
+const {PORT, DATABASE_URL } = process.env
 
 
 /////////////////////////////////
